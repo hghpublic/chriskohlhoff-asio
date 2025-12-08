@@ -24,3 +24,9 @@ test-driver
 *.zip
 /*.cpp
 /*.hpp
+
+# cmake
+build/
+
+# macos
+.DS_Store
