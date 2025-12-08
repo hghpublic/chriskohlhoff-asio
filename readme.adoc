@@ -1,0 +1,39 @@
+= Asio
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+[IMPORTANT]
+====
+The commit history of this branch is volatile. +
+Rebasing and force pushing happens at will. +
+The commits in this branch mostly collect changes with a narrow scope. +
+They rarely document code evolution. +
+The history may be rewritten without notice.
+====
+== Asio
+
+https://think-async.com/Asio/
+
+source::
+https://github.com/chriskohlhoff/asio
+
+fork::
+https://github.com/hghpublic/chriskohlhoff-asio
+
+=== Standalone Asio
+
+https://think-async.com/Asio/AsioStandalone.html
+
+`ASIO_STANDALONE`
+
+=== Documentation
+
+https://think-async.com/Asio/asio-1.36.0/doc/
+
+==== Using, Building, and Configuring Asio
+
+https://think-async.com/Asio/asio-1.36.0/doc/asio/using.html
