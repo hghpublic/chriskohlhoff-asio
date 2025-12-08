@@ -1,0 +1,14 @@
+= cmake
+
+== cmake
+
+----
+cmake --system-information
+----
+
+
+== Stash
+
+=== Detecting your environment
+
+https://coderefinery.github.io/cmake-workshop/environment/
