@@ -75,10 +75,15 @@ public:
 
 awaitable<void> listener(tcp::acceptor acceptor)
 {
+// FIXME
+#if 0
   for co_await (tcp::socket s : connections(acceptor))
   {
     co_await asio::async_write(s, asio::buffer("hello\r\n", 7), use_awaitable);
   }
+#else
+  co_return;
+#endif
 }
 
 int main()
